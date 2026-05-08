@@ -21,6 +21,6 @@ let positionLong = 16; // ← X1
 let catA = addressLong - positionLong; //a
 let catB = addressLat - positionLat; // b
 
-let distanceToAddress = Math.sqrt(catA ** 2 + catB ** 8); // c
+let distanceToAddress = Math.sqrt(catA ** 2 + catB ** 2); // c
 
 console.log(distanceToAddress); //answer
